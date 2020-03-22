@@ -1,12 +1,13 @@
 """
-Make a program that has some sentence (a string) on input 
-and returns a dict containing all unique words as keys 
+Make a program that has some sentence (a string) on input
+and returns a dict containing all unique words as keys
 and the number of occurrences as values.
 """
 
-string = input("enter string: ")
+string = input("enter some words: ").strip().split(" ")
 words = {}
 for e in set(string):
     words[e] = string.count(e)
 
 print(words)
+
