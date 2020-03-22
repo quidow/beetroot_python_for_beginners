@@ -24,9 +24,9 @@ Use positive indexing to get the first characters of a string
 and negative indexing to get the last characters
 """
 
-print("Please, enter your string: ", end="")
-string = input()
+string = input("Please, enter your string: ")
 if len(string) < 2:
     print("")
 else:
     print(string[:2] + string[-2:])
+

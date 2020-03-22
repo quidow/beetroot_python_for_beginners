@@ -15,5 +15,5 @@ else:
     print("you entered invalid age")
     exit()
 
-age += 1
-print(f"Hello {name}, on your next birthday you’ll be {age} years")
+print(f"Hello {name}, on your next birthday you’ll be {age + 1} years")
+
